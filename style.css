@@ -1,48 +1,48 @@
-/*
-Stylesheet #1
-=============
-Some of the styling is in this file, some is in style2.css
-*/
-/* Change to border-box sizing */
+**
+ * Float Layout Activity
+ **/
+
 * {
-    box-sizing: border-box;
-  }
-  /* General font and sizing */
-  body {
-    background-color: #ededed;
-    color: #363636;
-    font-size: 16px;
-    margin: 0px;
-  }
-  /* Container to hold all content */
-  .container {
-    background: #fff;
-    margin: 80px auto 15px auto;
-    padding: 15px;
-    width: 1000px;
-    height: 600px;
-  }
-  h1,h2{
-    text-transform: uppercase;
-    font-family: 'IBM Plex Mono', monospace;
-  }
-  h1 span, h2{
-    color:#ff8598;
-  }
-  h2::before{
-    content:"//" ;
-  }
-  ul{
-    list-style:none;
-    padding:0;
-  }
-  li{
-    margin-bottom:30px;
-  }
-  a{
-    color:#aaa;
-    text-decoration:underline;
-  }
-  a:hover{
-    text-decoration:underline;
-  }
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Add styling to recreate the layout on the screen */
+
+section::after {
+}
+
+#sidebar {
+}
+
+#largeContent {
+}
+
+#left {
+}
+
+#middle {
+}
+
+#right {
+}
+
+footer {
+}
