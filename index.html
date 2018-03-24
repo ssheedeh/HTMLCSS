@@ -1,35 +1,65 @@
+<!-- STUDENTS: Head to float.css for your assignment -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Reset/Normalize</title>
+    <title>Floating</title>
 
-    <!-- normalize.css below 
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"> -->
+    <!-- normalize.css below -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+
+    <!-- Custom header font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Custom body font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
     <!-- Our CSS file -->
-    <link rel="stylesheet" href="ps://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="floats.css">
   </head>
   <body>
-    <div class="container">
-      <header>
-        <img src="http://placehold.it/200x200" alt="avatar">
-        <h1>Hi,<br>my name is <span>Jen!</span></h1>
-      </header>
-      <section>
-        <h2>About Me</h2>
-        <p>My name is Jen and I am a super awesome UX/UI designer.</p>
-      </section>
-      <section>
-        <h2>Contact</h2>
+
+    <section>
+      <div id="sidebar">
         <ul>
-          <li><a href="tel:555-555-5555">Phone: 555-555-5555</a></li>
-          <li><a href="mailto:superjen@zmail.com">Email: superjen@zmail.com</a></li>
-          <li><a href="https://www.twitter.com">Twitter: @superJen-UX-UI</a></li>
+          <li>This</li>
+          <li>Is</li>
+          <li>A</li>
+          <li>Sidebar</li>
         </ul>
-      </section>
-    </div>
+      </div>
+
+      <div id="largeContent">
+        <h1>Hello</h1>
+        <p>This is our main content</p>
+      </div>
+
+    </section>
+
+    <section>
+
+      <div id="left">
+        <img src="http://placehold.it/200x200" alt="">
+        <h2>Image 1</h2>
+        <p>This is a left image</p>
+      </div>
+
+      <div id="middle">
+        <img src="http://placehold.it/200x200" alt="">
+        <h2>Image 2</h2>
+        <p>This is a middle image</p>
+      </div>
+
+      <div id="right">
+        <p>This is some text.</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>This is a footer</p>
+    </footer>
+
   </body>
 </html>
