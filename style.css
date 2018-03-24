@@ -24,6 +24,7 @@ Some of the styling is in this file, some is in style2.css
   }
   h1,h2{
     text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
   }
   h1 span, h2{
     color:#ff8598;
