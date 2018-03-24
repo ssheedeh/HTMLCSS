@@ -1,23 +1,35 @@
-<html>
-
-<head>
-  <title>Unit 16.2 CSS</title>
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <style>
-        h1{font-size:24px;color:greenyellow;}
-    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    
+    <!-- Our only CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <title>One CSS File</title>
   </head>
-
   <body>
-    <!-- CODE GOES HERE -->
-    <h1>css is here</h1>
-    <h1>css is here</h1>
-    <h1>css is here</h1>
-    <p style="color:red;">paragraph is here in red</p>
+    <div class="container">
+      <header>
+        <img src="http://placehold.it/200x200" alt="avatar">
+        <h1>Hi,<br>my name is <span>Jen!</span></h1>
+      </header>
+      <div id="leftContent">
+        <section>
+          <h2>About Me</h2>
+          <p>My name is Jen and I am a super awesome UX/UI designer.</p>
+        </section>
+      </div>
+      <div id="rightContent">
+        <section>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="tel:555-555-5555">Phone: <span class="contactLink">555-555-5555</span></a></li>
+            <li><a href="mailto:superjen@zmail.com">Email: <span class="contactLink">superjen@zmail.com</span></a></li>
+            <li><a href="https://www.twitter.com">Twitter: <span class="contactLink">@superJen-UX-UI</span></a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
   </body>
-
 </html>
-
-
