@@ -1,0 +1,45 @@
+/*
+Stylesheet #2
+=============
+Here we define more styles for our HTML page.
+Take note: The rules here will take precedence over stylesheet #1.
+Try a new width for .container.
+*/
+/* H1 styling */
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+  h1 span {
+    color: #FF8598;
+  }
+  /* H2 styling */
+  h2 {
+    color: #FF8598;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  h2::before {
+    content: "//";
+    margin-right: 5px;
+  }
+  /* Undo default list styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  /* Contact list */
+  li {
+    margin-bottom: 30px;
+  }
+  a {
+    color: #aaa;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a span {
+    color: #337ab7;
+    font-weight: bold;
+  }
