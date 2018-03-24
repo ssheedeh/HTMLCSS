@@ -1,8 +1,8 @@
-**
+/**
  * Float Layout Activity
  **/
 
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -20,7 +20,11 @@ body {
   font-family: "Roboto Slab", sans-serif;
 }
 
-section {
+
+
+
+
+#section {
   margin-bottom: 20px;
 }
 
@@ -30,19 +34,42 @@ section::after {
 }
 
 #sidebar {
+    float: left;
+    width: 33.33%;
+
 }
 
 #largeContent {
+    float: right;
+    width: 66.66%;
+    background-color: blue;
 }
 
 #left {
+  float: left;
+  width: 20%;
+  background-color: #eee;
 }
 
 #middle {
+  float: left;
+  width: 20%;
+  background-color: #444;
+  color: white;
 }
 
 #right {
+  float: right;
+  width: 60%;
+  background-color: #eee;
 }
-
+.section-wrap{
+  float:left;
+  width:100%;
+}
 footer {
+  float: left;
+  width: 100%;
+  color: black;
+  background-color: #eee 
 }
