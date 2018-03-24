@@ -43,7 +43,7 @@ Stylesheet #1
 Some of the styling is in this file, some is in style2.css
 */
 /* Change to border-box sizing */
-* {
+*{
     box-sizing: border-box;
   }
   /* General font and sizing */
