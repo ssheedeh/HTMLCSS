@@ -11,7 +11,6 @@ Some of the styling is in this file, some is in style2.css
   body {
     background-color: #ededed;
     color: #363636;
-    font-family: "Open Sans", Arial, Tahoma;
     font-size: 16px;
     margin: 0px;
   }
@@ -23,57 +22,26 @@ Some of the styling is in this file, some is in style2.css
     width: 1000px;
     height: 600px;
   }
-  /* Float main content areas */
-  #leftContent {
-    float: left;
-    padding-right: 30px;
-    width: 60%;
+  h1,h2{
+    text-transform: uppercase;
   }
-  #rightContent {
-    float: left;
-    width: 40%;
+  h1 span, h2{
+    color:#ff8598;
   }
-  /* Header alignment */
-  header {
-    text-align: center;
-    margin: 0 auto;
-  /*
-Stylesheet #1
-=============
-Some of the styling is in this file, some is in style2.css
-*/
-/* Change to border-box sizing */
-*{
-    box-sizing: border-box;
+  h2::before{
+    content:"//" ;
   }
-  /* General font and sizing */
-  body {
-    background-color: #ededed;
-    color: #363636;
-    font-family: "Open Sans", Arial, Tahoma;
-    font-size: 16px;
-    margin: 0px;
+  ul{
+    list-style:none;
+    padding:0;
   }
-  /* Container to hold all content */
-  .container {
-    background: #fff;
-    margin: 80px auto 15px auto;
-    padding: 15px;
-    width: 1000px;
-    height: 600px;
+  li{
+    margin-bottom:30px;
   }
-  /* Float main content areas */
-  #leftContent {
-    float: left;
-    padding-right: 30px;
-    width: 60%;
+  a{
+    color:#aaa;
+    text-decoration:underline;
   }
-  #rightContent {
-    float: left;
-    width: 40%;
-  }
-  /* Header alignment */
-  header {
-    text-align: center;
-    margin: 0 auto;
+  a:hover{
+    text-decoration:underline;
   }
